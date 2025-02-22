@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ôn thi quốc tịch Mỹ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ôn thi quốc tịch Mỹ</h1>
+
+    <button onclick="playAudio('q1/q1_voice1.wav')">Câu hỏi 1</button>
+    
+    <h3>Answer</h3>
+    <button onclick="playAudio('q1/q1_answer_voice1.wav')">Trả lời</button>
+
+    <script>
+        const BUCKET_URL = "https://civic100-voice.s3.us-west-1.amazonaws.com/civic100-voice/";
+
+        function playAudio(filePath) {
+            const audio = new Audio(BUCKET_URL + filePath);
+            audio.play();
+        }
+    </script>
+    
+</body>
+</html>
