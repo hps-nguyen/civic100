@@ -1,0 +1,902 @@
+[
+    {
+        "id": 1,
+        "question": "What is the supreme law of the land?",
+        "answer": "The Constitution",
+        "translation": {
+            "question": "Luật tối cao của đất nước là gì?",
+            "answer": "Hiến Pháp"
+        }
+    },
+    {
+        "id": 2,
+        "question": "What does the Constitution do?",
+        "answer": "Sets up the government; Defines the government; Protects basic rights of Americans",
+        "translation": {
+            "question": "Hiến Pháp thực thi điều gì?",
+            "answer": "Thiết lập chính phủ; Định rõ chính phủ; Bảo vệ quyền cơ bản của dân Mỹ"
+        }
+    },
+    {
+        "id": 3,
+        "question": "The idea of self-government is in the first three words of the Constitution. What are these words?",
+        "answer": "We the People",
+        "translation": {
+            "question": "Ý niệm của việc tự trị nằm trong ba chữ đầu của Hiến Pháp. Các chữ đó là gì?",
+            "answer": "Chúng ta (người) Dân"
+        }
+    },
+    {
+        "id": 4,
+        "question": "What is an amendment?",
+        "answer": "A change (to the Constitution); An addition (to the Constitution)",
+        "translation": {
+            "question": "Tu Chánh Án là gì?",
+            "answer": "Thay đổi (của Hiến Pháp); Bổ sung (vào Hiến Pháp)"
+        }
+    },
+    {
+        "id": 5,
+        "question": "What do we call the first 10 amendments to the Constitution?",
+        "answer": "The Bill of Rights",
+        "translation": {
+            "question": "Chúng ta gọi 10 tu chánh án đầu tiên của Hiến Pháp là gì?",
+            "answer": "Bản Tuyên Ngôn Nhân Quyền"
+        }
+    },
+    {
+        "id": 6,
+        "question": "What is one right or freedom from the First Amendment?",
+        "answer": "Speech; Religion; Assembly; Press; Petition the government",
+        "translation": {
+            "question": "Một quyền hoặc tự do từ Tu Chính Án Thứ Nhất là gì?",
+            "answer": "Tự do ngôn luận; Tự do tôn giáo; Tự do hội họp; Tự do báo chí; Quyền kiến nghị chính phủ"
+        }
+    },
+    {
+        "id": 7,
+        "question": "How many amendments does the Constitution have?",
+        "answer": "Twenty-seven (27)",
+        "translation": {
+            "question": "Hiến Pháp có bao nhiêu tu chính án?",
+            "answer": "Hai mươi bảy (27)"
+        }
+    },
+    {
+        "id": 8,
+        "question": "What did the Declaration of Independence do?",
+        "answer": "Announced our independence (from Great Britain); Declared our independence (from Great Britain); Said that the United States is free (from Great Britain)",
+        "translation": {
+            "question": "Tuyên Ngôn Độc Lập đã làm gì?",
+            "answer": "Tuyên bố độc lập của chúng ta (khỏi Anh Quốc); Tuyên bố độc lập của chúng ta (khỏi Anh Quốc); Nói rằng Hoa Kỳ tự do (khỏi Anh Quốc)"
+        }
+    },
+    {
+        "id": 9,
+        "question": "What are two rights in the Declaration of Independence?",
+        "answer": "Life; Liberty; Pursuit of happiness",
+        "translation": {
+            "question": "Hai quyền trong Tuyên Ngôn Độc Lập là gì?",
+            "answer": "Quyền sống; Quyền tự do; Quyền mưu cầu hạnh phúc"
+        }
+    },
+    {
+        "id": 10,
+        "question": "What is freedom of religion?",
+        "answer": "You can practice any religion, or not practice a religion.",
+        "translation": {
+            "question": "Tự do tôn giáo là gì?",
+            "answer": "Bạn có thể theo bất kỳ tôn giáo nào, hoặc không theoôn giáo nào."
+        }
+    },
+    {
+        "id": 11,
+        "question": "What is the economic system in the United States?",
+        "answer": "Capitalist economy; Market economy",
+        "translation": {
+            "question": "Hệ thống kinh tế của Hoa Kỳ là gì?",
+            "answer": "Kinh tế tư bản; Kinh tế thị trường"
+        }
+    },
+    {
+        "id": 12,
+        "question": "What is the “rule of law”?",
+        "answer": "Everyone must follow the law; Leaders must obey the law; Government must obey the law; No one is above the law.",
+        "translation": {
+            "question": "“Quyền lực của pháp luật” là gì?",
+            "answer": "Mọi người phải tuân theo pháp luật; Lãnh đạo phải tuân theo pháp luật; Chính phủ phải tuân theo pháp luật; Không ai đứng trên pháp luật."
+        }
+    },
+    {
+        "id": 13,
+        "question": "Name one branch or part of the government.",
+        "answer": "Congress; Legislative; President; Executive; The courts; Judicial",
+        "translation": {
+            "question": "Kể tên một nhánh hoặc phần của chính phủ.",
+            "answer": "Quốc hội; Lập pháp; Tổng thống; Hành pháp; Tòa án; Tư pháp"
+        }
+    },
+    {
+        "id": 14,
+        "question": "What stops one branch of government from becoming too powerful?",
+        "answer": "Checks and balances; Separation of powers",
+        "translation": {
+            "question": "Điều gì ngăn một nhánh của chính phủ trở nên quá quyền lực?",
+            "answer": "Kiểm tra và cân bằng; Phân chia quyền lực"
+        }
+    },
+    {
+        "id": 15,
+        "question": "Who is in charge of the executive branch?",
+        "answer": "The President",
+        "translation": {
+            "question": "Ai đứng đầu nhánh hành pháp?",
+            "answer": "Tổng thống"
+        }
+    },
+    {
+        "id": 16,
+        "question": "Who makes federal laws?",
+        "answer": "Congress; Senate and House (of Representatives); (U.S. or national) legislature",
+        "translation": {
+            "question": "Ai làm ra luật liên bang?",
+            "answer": "Quốc hội; Thượng viện và Hạ viện; Cơ quan lập pháp (Hoa Kỳ hoặc quốc gia)"
+        }
+    },
+    {
+        "id": 17,
+        "question": "What are the two parts of the U.S. Congress?",
+        "answer": "The Senate and House (of Representatives)",
+        "translation": {
+            "question": "Hai phần của Quốc hội Hoa Kỳ là gì?",
+            "answer": "Thượng viện và Hạ viện"
+        }
+    },
+    {
+        "id": 18,
+        "question": "How many U.S. Senators are there?",
+        "answer": "One hundred (100)",
+        "translation": {
+            "question": "Có bao nhiêu Thượng nghị sĩ Hoa Kỳ?",
+            "answer": "Một trăm (100)"
+        }
+    },
+    {
+        "id": 19,
+        "question": "We elect a U.S. Senator for how many years?",
+        "answer": "Six (6)",
+        "translation": {
+            "question": "Chúng ta bầu một Thượng nghị sĩ Hoa Kỳ trong bao nhiêu năm?",
+            "answer": "Sáu (6)"
+        }
+    },
+    {
+        "id": 20,
+        "question": "Who does a U.S. Senator represent?",
+        "answer": "All people of the state",
+        "translation": {
+            "question": "Một Thượng nghị sĩ Hoa Kỳ đại diện cho ai?",
+            "answer": "Tất cả người dân của tiểu bang"
+        }
+    },
+    {
+        "id": 21,
+        "question": "Why do some states have more Representatives than other states?",
+        "answer": "Because of the state's population; Because they have more people; Because some states have more people",
+        "translation": {
+            "question": "Tại sao một số tiểu bang có nhiều Đại diện hơn các tiểu bang khác?",
+            "answer": "Vì dân số của tiểu bang; Vì họ có nhiều người hơn; Vì một số tiểu bang có nhiều người hơn"
+        }
+    },
+    {
+        "id": 22,
+        "question": "We elect a President for how many years?",
+        "answer": "Four (4)",
+        "translation": {
+            "question": "Chúng ta bầu một Tổng thống trong bao nhiêu năm?",
+            "answer": "Bốn (4)"
+        }
+    },
+    {
+        "id": 23,
+        "question": "In what month do we vote for President?",
+        "answer": "November",
+        "translation": {
+            "question": "Chúng ta bầu Tổng thống vào tháng nào?",
+            "answer": "Tháng Mười Một"
+        }
+    },
+    {
+        "id": 24,
+        "question": "If the President can no longer serve, who becomes President?",
+        "answer": "The Vice President",
+        "translation": {
+            "question": "Nếu Tổng thống không thể phục vụ nữa, ai sẽ trở thành Tổng thống?",
+            "answer": "Phó Tổng thống"
+        }
+    },
+    {
+        "id": 25,
+        "question": "If both the President and the Vice President can no longer serve, who becomes President?",
+        "answer": "The Speaker of the House",
+        "translation": {
+            "question": "Nếu cả Tổng thống và Phó Tổng thống không thể phục vụ nữa, ai sẽ trở thành Tổng thống?",
+            "answer": "Chủ tịch Hạ viện"
+        }
+    },
+    {
+        "id": 26,
+        "question": "Who is the Commander in Chief of the military?",
+        "answer": "The President",
+        "translation": {
+            "question": "Ai là Tổng tư lệnh quân đội?",
+            "answer": "Tổng thống"
+        }
+    },
+    {
+        "id": 27,
+        "question": "Who signs bills to become laws?",
+        "answer": "The President",
+        "translation": {
+            "question": "Ai ký các dự luật để trở thành luật?",
+            "answer": "Tổng thống"
+        }
+    },
+    {
+        "id": 28,
+        "question": "Who vetoes bills?",
+        "answer": "The President",
+        "translation": {
+            "question": "Ai phủ quyết các dự luật?",
+            "answer": "Tổng thống"
+        }
+    },
+    {
+        "id": 29,
+        "question": "What does the President's Cabinet do?",
+        "answer": "Advises the President",
+        "translation": {
+            "question": "Nội các của Tổng thống làm gì?",
+            "answer": "Tư vấn cho Tổng thống"
+        }
+    },
+    {
+        "id": 30,
+        "question": "What are two Cabinet-level positions?",
+        "answer": "Secretary of Agriculture; Secretary of Commerce; Secretary of Defense; Secretary of Education; Secretary of Energy; Secretary of Health and Human Services; Secretary of Homeland Security; Secretary of Housing and Urban Development; Secretary of the Interior; Secretary of Labor; Secretary of State; Secretary of Transportation; Secretary of the Treasury; Secretary of Veterans Affairs; Attorney General; Vice President",
+        "translation": {
+            "question": "Hai vị trí cấp Nội các là gì?",
+            "answer": "Bộ trưởng Nông nghiệp; Bộ trưởng Thương mại; Bộ trưởng Quốc phòng; Bộ trưởng Giáo dục; Bộ trưởng Năng lượng; Bộ trưởng Y tế và Dịch vụ Nhân sinh; Bộ trưởng An ninh Nội địa; Bộ trưởng Nhà ở và Phát triển Đô thị; Bộ trưởng Nội vụ; Bộ trưởng Lao động; Bộ trưởng Ngoại giao; Bộ trưởng Giao thông vận tải; Bộ trưởng Tài chính; Bộ trưởng Cựu chiến binh; Tổng chưởng lý; Phó Tổng thống"
+        }
+    },
+    {
+        "id": 31,
+        "question": "What does the judicial branch do?",
+        "answer": "Reviews laws; Explains laws; Resolves disputes (disagreements); Decides if a law goes against the Constitution",
+        "translation": {
+            "question": "Nhánh tư pháp làm gì?",
+            "answer": "Xem xét luật; Giải thích luật; Giải quyết tranh chấp (bất đồng); Quyết định xem một luật có vi phạm Hiến pháp hay không"
+        }
+    },
+    {
+        "id": 32,
+        "question": "What is the highest court in the United States?",
+        "answer": "The Supreme Court",
+        "translation": {
+            "question": "Tòa án cao nhất ở Hoa Kỳ là gì?",
+            "answer": "Tòa án Tối cao"
+        }
+    },
+    {
+        "id": 33,
+        "question": "How many justices are on the Supreme Court?",
+        "answer": "Visit uscis.gov/citizenship/testupdates for the number of justices on the Supreme Court.",
+        "translation": {
+            "question": "Có bao nhiêu thẩm phán trong Tòa án Tối cao?",
+            "answer": "Truy cập uscis.gov/citizenship/testupdates để biết số lượng thẩm phán trong Tòa án Tối cao."
+        }
+    },
+    {
+        "id": 34,
+        "question": "Who is the Chief Justice of the United States now?",
+        "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States.",
+        "translation": {
+            "question": "Ai là Chánh án của Hoa Kỳ hiện nay?",
+            "answer": "Truy cập uscis.gov/citizenship/testupdates để biết tên của Chánh án Hoa Kỳ."
+        }
+    },
+    {
+        "id": 35,
+        "question": "Under our Constitution, some powers belong to the federal government. What is one power of the federal government?",
+        "answer": "To print money; To declare war; To create an army; To make treaties",
+        "translation": {
+            "question": "Theo Hiến pháp của chúng ta, một số quyền lực thuộc về chính phủ liên bang. Một quyền lực của chính phủ liên bang là gì?",
+            "answer": "In tiền; Tuyên chiến; Tạo ra quân đội; Ký kết hiệp ước"
+        }
+    },
+    {
+        "id": 36,
+        "question": "Under our Constitution, some powers belong to the states. What is one power of the states?",
+        "answer": "Provide schooling and education; Provide protection (police); Provide safety (fire departments); Give a driver's license; Approve zoning and land use",
+        "translation": {
+            "question": "Theo Hiến pháp của chúng ta, một số quyền lực thuộc về các tiểu bang. Một quyền lực của các tiểu bang là gì?",
+            "answer": "Cung cấp trường học và giáo dục; Cung cấp bảo vệ (cảnh sát); Cung cấp an toàn (các sở cứu hỏa); Cấp giấy phép lái xe; Phê duyệt quy hoạch và sử dụng đất"
+        }
+    },
+    {
+        "id": 37,
+        "question": "Who is the Governor of your state now?",
+        "answer": "Answers will vary.",
+        "translation": {
+            "question": "Ai là Thống đốc của tiểu bang của bạn hiện nay?",
+            "answer": "Câu trả lời sẽ khác nhau."
+        }
+    },
+    {
+        "id": 38,
+        "question": "What is the capital of your state?",
+        "answer": "Answers will vary.",
+        "translation": {
+            "question": "Thủ đô của tiểu bang của bạn là gì?",
+            "answer": "Câu trả lời sẽ khác nhau."
+        }
+    },
+    {
+        "id": 39,
+        "question": "What are the two major political parties in the United States?",
+        "answer": "Democratic and Republican",
+        "translation": {
+            "question": "Hai đảng chính trị lớn ở Hoa Kỳ là gì?",
+            "answer": "Đảng Dân chủ và Đảng Cộng hòa"
+        }
+    },
+    {
+        "id": 40,
+        "question": "What is the political party of the President now?",
+        "answer": "Visit uscis.gov/citizenship/testupdates for the political party of the President.",
+        "translation": {
+            "question": "Đảng chính trị của Tổng thống hiện nay là gì?",
+            "answer": "Truy cập uscis.gov/citizenship/testupdates để biết đảng chính trị của Tổng thống."
+        }
+    },
+    {
+        "id": 41,
+        "question": "What is the name of the Speaker of the House of Representatives now?",
+        "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives.",
+        "translation": {
+            "question": "Tên của Chủ tịch Hạ viện hiện nay là gì?",
+            "answer": "Truy cập uscis.gov/citizenship/testupdates để biết tên của Chủ tịch Hạ viện."
+        }
+    },
+    {
+        "id": 42,
+        "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+        "answer": "Citizens eighteen (18) and older (can vote); You don't have to pay (a poll tax) to vote; Any citizen can vote (Women and men can vote); A male citizen of any race (can vote).",
+        "translation": {
+            "question": "Có bốn tu chính án của Hiến pháp về việc ai có thể bỏ phiếu. Mô tả một trong số đó.",
+            "answer": "Công dân mười tám (18) tuổi trở lên (có thể bỏ phiếu); Bạn không phải trả (thuế bầu cử) để bỏ phiếu; Bất kỳ công dân nào cũng có thể bỏ phiếu (Phụ nữ và nam giới đều có thể bỏ phiếu); Một công dân nam của bất kỳ chủng tộc nào (có thể bỏ phiếu)."
+        }
+    },
+    {
+        "id": 43,
+        "question": "Who is the Governor of your state now?",
+        "answer": "Answers will vary.",
+        "translation": {
+            "question": "Ai là Thống đốc của tiểu bang của bạn hiện nay?",
+            "answer": "Câu trả lời sẽ khác nhau."
+        }
+    },
+    {
+        "id": 44,
+        "question": "What is the capital of your state?",
+        "answer": "Answers will vary.",
+        "translation": {
+            "question": "Thủ đô của tiểu bang của bạn là gì?",
+            "answer": "Câu trả lời sẽ khác nhau."
+        }
+    },
+    {
+        "id": 45,
+        "question": "What are the two major political parties in the United States?",
+        "answer": "Democratic and Republican",
+        "translation": {
+            "question": "Hai đảng chính trị lớn ở Hoa Kỳ là gì?",
+            "answer": "Đảng Dân chủ và Đảng Cộng hòa"
+        }
+    },
+    {
+        "id": 46,
+        "question": "What is the political party of the President now?",
+        "answer": "Visit uscis.gov/citizenship/testupdates for the political party of the President.",
+        "translation": {
+            "question": "Đảng chính trị của Tổng thống hiện nay là gì?",
+            "answer": "Truy cập uscis.gov/citizenship/testupdates để biết đảng chính trị của Tổng thống."
+        }
+    },
+    {
+        "id": 47,
+        "question": "What is the name of the Speaker of the House of Representatives now?",
+        "answer": "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives.",
+        "translation": {
+            "question": "Tên của Chủ tịch Hạ viện hiện nay là gì?",
+            "answer": "Truy cập uscis.gov/citizenship/testupdates để biết tên của Chủ tịch Hạ viện."
+        }
+    },
+    {
+        "id": 48,
+        "question": "There are four amendments to the Constitution about who can vote. Describe one of them.",
+        "answer": "Citizens eighteen (18) and older (can vote); You don't have to pay (a poll tax) to vote; Any citizen can vote (Women and men can vote); A male citizen of any race (can vote).",
+        "translation": {
+            "question": "Có bốn tu chính án của Hiến pháp về việc ai có thể bỏ phiếu. Mô tả một trong số đó.",
+            "answer": "Công dân mười tám (18) tuổi trở lên (có thể bỏ phiếu); Bạn không phải trả (thuế bầu cử) để bỏ phiếu; Bất kỳ công dân nào cũng có thể bỏ phiếu (Phụ nữ và nam giới đều có thể bỏ phiếu); Một công dân nam của bất kỳ chủng tộc nào (có thể bỏ phiếu)."
+        }
+    },
+    {
+        "id": 49,
+        "question": "What is one responsibility that is only for United States citizens?",
+        "answer": "Serve on a jury; Vote in a federal election",
+        "translation": {
+            "question": "Một trách nhiệm chỉ dành cho công dân Hoa Kỳ là gì?",
+            "answer": "Phục vụ trong bồi thẩm đoàn; Bỏ phiếu trong cuộc bầu cử liên bang"
+        }
+    },
+    {
+        "id": 50,
+        "question": "Name one right only for United States citizens.",
+        "answer": "Vote in a federal election; Run for federal office",
+        "translation": {
+            "question": "Kể tên một quyền chỉ dành cho công dân Hoa Kỳ.",
+            "answer": "Bỏ phiếu trong cuộc bầu cử liên bang; Ứng cử vào chức vụ liên bang"
+        }
+    },
+    {
+        "id": 51,
+        "question": "What are two rights of everyone living in the United States?",
+        "answer": "Freedom of expression; Freedom of speech; Freedom of assembly; Freedom to petition the government; Freedom of religion; The right to bear arms",
+        "translation": {
+            "question": "Hai quyền của mọi người sống ở Hoa Kỳ là gì?",
+            "answer": "Tự do biểu đạt; Tự do ngôn luận; Tự do hội họp; Tự do kiến nghị chính phủ; Tự do tôn giáo; Quyền mang vũ khí"
+        }
+    },
+    {
+        "id": 52,
+        "question": "What do we show loyalty to when we say the Pledge of Allegiance?",
+        "answer": "The United States; The flag",
+        "translation": {
+            "question": "Chúng ta thể hiện lòng trung thành với điều gì khi chúng ta nói Lời thề Trung thành?",
+            "answer": "Hoa Kỳ; Lá cờ"
+        }
+    },
+    {
+        "id": 53,
+        "question": "What is one promise you make when you become a United States citizen?",
+        "answer": "Give up loyalty to other countries; Defend the Constitution and laws of the United States; Obey the laws of the United States; Serve in the U.S. military (if needed); Serve (do important work for) the nation (if needed); Be loyal to the United States",
+        "translation": {
+            "question": "Một lời hứa bạn đưa ra khi trở thành công dân Hoa Kỳ là gì?",
+            "answer": "Từ bỏ lòng trung thành với các quốc gia khác; Bảo vệ Hiến pháp và luật pháp của Hoa Kỳ; Tuân thủ luật pháp của Hoa Kỳ; Phục vụ trong quân đội Hoa Kỳ (nếu cần); Phục vụ (làm công việc quan trọng cho) quốc gia (nếu cần); Trung thành với Hoa Kỳ"
+        }
+    },
+    {
+        "id": 54,
+        "question": "How old do citizens have to be to vote for President?",
+        "answer": "Eighteen (18) and older",
+        "translation": {
+            "question": "Công dân phải bao nhiêu tuổi để bỏ phiếu bầu Tổng thống?",
+            "answer": "Mười tám (18) tuổi trở lên"
+        }
+    },
+    {
+        "id": 55,
+        "question": "What are two ways that Americans can participate in their democracy?",
+        "answer": "Vote; Join a political party; Help with a campaign; Join a civic group; Join a community group; Give an elected official your opinion on an issue; Call Senators and Representatives; Publicly support or oppose an issue or policy; Run for office; Write to a newspaper",
+        "translation": {
+            "question": "Hai cách mà người Mỹ có thể tham gia vào nền dân chủ của họ là gì?",
+            "answer": "Bỏ phiếu; Tham gia một đảng chính trị; Giúp đỡ trong một chiến dịch; Tham gia một nhóm công dân; Tham gia một nhóm cộng đồng; Đưa ra ý kiến của bạn cho một quan chức được bầu về một vấn đề; Gọi cho các Thượng nghị sĩ và Đại diện; Công khai ủng hộ hoặc phản đối một vấn đề hoặc chính sách; Ứng cử vào chức vụ; Viết thư cho một tờ báo"
+        }
+    },
+    {
+        "id": 56,
+        "question": "When is the last day you can send in federal income tax forms?",
+        "answer": "April 15",
+        "translation": {
+            "question": "Ngày cuối cùng bạn có thể gửi mẫu thuế thu nhập liên bang là khi nào?",
+            "answer": "Ngày 15 tháng 4"
+        }
+    },
+    {
+        "id": 57,
+        "question": "When must all men register for the Selective Service?",
+        "answer": "At age eighteen (18); Between eighteen (18) and twenty-six (26)",
+        "translation": {
+            "question": "Khi nào tất cả nam giới phải đăng ký Dịch vụ Tuyển chọn?",
+            "answer": "Ở tuổi mười tám (18); Giữa mười tám (18) và hai mươi sáu (26)"
+        }
+    },
+    {
+        "id": 58,
+        "question": "What is one reason colonists came to America?",
+        "answer": "Freedom; Political liberty; Religious freedom; Economic opportunity; Practice their religion; Escape persecution",
+        "translation": {
+            "question": "Một lý do mà những người thực dân đến Mỹ là gì?",
+            "answer": "Tự do; Tự do chính trị; Tự do tôn giáo; Cơ hội kinh tế; Thực hành tôn giáo của họ; Trốn thoát sự đàn áp"
+        }
+    },
+    {
+        "id": 59,
+        "question": "Who lived in America before the Europeans arrived?",
+        "answer": "American Indians; Native Americans",
+        "translation": {
+            "question": "Ai đã sống ở Mỹ trước khi người châu Âu đến?",
+            "answer": "Người da đỏ Mỹ; Người Mỹ bản địa"
+        }
+    },
+    {
+        "id": 60,
+        "question": "What group of people was taken to America and sold as slaves?",
+        "answer": "Africans; People from Africa",
+        "translation": {
+            "question": "Nhóm người nào đã bị đưa đến Mỹ và bán làm nô lệ?",
+            "answer": "Người châu Phi; Người từ châu Phi"
+        }
+    },
+    {
+        "id": 61,
+        "question": "Why did the colonists fight the British?",
+        "answer": "Because of high taxes (taxation without representation); Because the British army stayed in their houses (boarding, quartering); Because they didn't have self-government",
+        "translation": {
+            "question": "Tại sao những người thực dân lại chiến đấu với người Anh?",
+            "answer": "Vì thuế cao (đánh thuế mà không có đại diện); Vì quân đội Anh ở lại trong nhà của họ (cho ở trọ, đóng quân); Vì họ không có tự trị"
+        }
+    },
+    {
+        "id": 62,
+        "question": "Who wrote the Declaration of Independence?",
+        "answer": "Thomas Jefferson",
+        "translation": {
+            "question": "Ai đã viết Tuyên ngôn Độc lập?",
+            "answer": "Thomas Jefferson"
+        }
+    },
+    {
+        "id": 63,
+        "question": "When was the Declaration of Independence adopted?",
+        "answer": "July 4, 1776",
+        "translation": {
+            "question": "Tuyên ngôn Độc lập được thông qua khi nào?",
+            "answer": "Ngày 4 tháng 7 năm 1776"
+        }
+    },
+    {
+        "id": 64,
+        "question": "There were 13 original states. Name three.",
+        "answer": "New Hampshire; Massachusetts; Rhode Island; Connecticut; New York; New Jersey; Pennsylvania; Delaware; Maryland; Virginia; North Carolina; South Carolina; Georgia",
+        "translation": {
+            "question": "Có 13 tiểu bang ban đầu. Kể tên ba tiểu bang.",
+            "answer": "New Hampshire; Massachusetts; Rhode Island; Connecticut; New York; New Jersey; Pennsylvania; Delaware; Maryland; Virginia; North Carolina; South Carolina; Georgia"
+        }
+    },
+    {
+        "id": 65,
+        "question": "What happened at the Constitutional Convention?",
+        "answer": "The Constitution was written; The Founding Fathers wrote the Constitution",
+        "translation": {
+            "question": "Điều gì đã xảy ra tại Hội nghị Lập hiến?",
+            "answer": "Hiến pháp đã được viết; Các nhà lập quốc đã viết Hiến pháp"
+        }
+    },
+    {
+        "id": 66,
+        "question": "When was the Constitution written?",
+        "answer": "1787",
+        "translation": {
+            "question": "Hiến pháp được viết khi nào?",
+            "answer": "Năm 1787"
+        }
+    },
+    {
+        "id": 67,
+        "question": "The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.",
+        "answer": "James Madison; Alexander Hamilton; John Jay; Publius",
+        "translation": {
+            "question": "Các bài viết Liên bang ủng hộ việc thông qua Hiến pháp Hoa Kỳ. Kể tên một trong những tác giả.",
+            "answer": "James Madison; Alexander Hamilton; John Jay; Publius"
+        }
+    },
+    {
+        "id": 68,
+        "question": "What is one thing Benjamin Franklin is famous for?",
+        "answer": "U.S. diplomat; Oldest member of the Constitutional Convention; First Postmaster General of the United States; Writer of “Poor Richard's Almanac”; Started the first free libraries",
+        "translation": {
+            "question": "Một điều mà Benjamin Franklin nổi tiếng là gì?",
+            "answer": "Nhà ngoại giao Hoa Kỳ; Thành viên lớn tuổi nhất của Hội nghị Lập hiến; Tổng Giám đốc Bưu điện đầu tiên của Hoa Kỳ; Tác giả của “Niên giám của Người nghèo Richard”; Khởi xướng các thư viện miễn phí đầu tiên"
+        }
+    },
+    {
+        "id": 69,
+        "question": "Who is the “Father of Our Country”?",
+        "answer": "George Washington",
+        "translation": {
+            "question": "Ai là “Cha đẻ của Đất nước chúng ta”?",
+            "answer": "George Washington"
+        }
+    },
+    {
+        "id": 70,
+        "question": "Who was the first President?",
+        "answer": "George Washington",
+        "translation": {
+            "question": "Ai là Tổng thống đầu tiên?",
+            "answer": "George Washington"
+        }
+    },
+    {
+        "id": 71,
+        "question": "What territory did the United States buy from France in 1803?",
+        "answer": "The Louisiana Territory; Louisiana",
+        "translation": {
+            "question": "Lãnh thổ nào mà Hoa Kỳ đã mua từ Pháp vào năm 1803?",
+            "answer": "Lãnh thổ Louisiana; Louisiana"
+        }
+    },
+    {
+        "id": 72,
+        "question": "Name one war fought by the United States in the 1800s.",
+        "answer": "War of 1812; Mexican-American War; Civil War; Spanish-American War",
+        "translation": {
+            "question": "Kể tên một cuộc chiến mà Hoa Kỳ đã tham gia trong những năm 1800.",
+            "answer": "Chiến tranh năm 1812; Chiến tranh Mỹ-Mexico; Nội chiến; Chiến tranh Tây Ban Nha-Mỹ"
+        }
+    },
+    {
+        "id": 73,
+        "question": "Name the U.S. war between the North and the South.",
+        "answer": "The Civil War; The War between the States",
+        "translation": {
+            "question": "Kể tên cuộc chiến của Hoa Kỳ giữa miền Bắc và miền Nam.",
+            "answer": "Nội chiến; Cuộc chiến giữa các tiểu bang"
+        }
+    },
+    {
+        "id": 74,
+        "question": "Name one problem that led to the Civil War.",
+        "answer": "Slavery; Economic reasons; States' rights",
+        "translation": {
+            "question": "Kể tên một vấn đề dẫn đến Nội chiến.",
+            "answer": "Chế độ nô lệ; Lý do kinh tế; Quyền của các tiểu bang"
+        }
+    },
+    {
+        "id": 75,
+        "question": "What was one important thing that Abraham Lincoln did?",
+        "answer": "Freed the slaves (Emancipation Proclamation); Saved (or preserved) the Union; Led the United States during the Civil War",
+        "translation": {
+            "question": "Một điều quan trọng mà Abraham Lincoln đã làm là gì?",
+            "answer": "Giải phóng nô lệ (Tuyên ngôn Giải phóng); Cứu (hoặc bảo tồn) Liên bang; Lãnh đạo Hoa Kỳ trong Nội chiến"
+        }
+    },
+    {
+        "id": 76,
+        "question": "What did the Emancipation Proclamation do?",
+        "answer": "Freed the slaves; Freed slaves in the Confederacy; Freed slaves in the Confederate states; Freed slaves in most Southern states",
+        "translation": {
+            "question": "Tuyên ngôn Giải phóng đã làm gì?",
+            "answer": "Giải phóng nô lệ; Giải phóng nô lệ trong Liên minh; Giải phóng nô lệ trong các tiểu bang Liên minh; Giải phóng nô lệ trong hầu hết các tiểu bang miền Nam"
+        }
+    },
+    {
+        "id": 77,
+        "question": "What did Susan B. Anthony do?",
+        "answer": "Fought for women's rights; Fought for civil rights",
+        "translation": {
+            "question": "Susan B. Anthony đã làm gì?",
+            "answer": "Đấu tranh cho quyền phụ nữ; Đấu tranh cho quyền dân sự"
+        }
+    },
+    {
+        "id": 78,
+        "question": "Name one war fought by the United States in the 1900s.",
+        "answer": "World War I; World War II; Korean War; Vietnam War; (Persian) Gulf War",
+        "translation": {
+            "question": "Kể tên một cuộc chiến mà Hoa Kỳ đã tham gia trong những năm 1900.",
+            "answer": "Chiến tranh Thế giới thứ nhất; Chiến tranh Thế giới thứ hai; Chiến tranh Triều Tiên; Chiến tranh Việt Nam; Chiến tranh Vùng Vịnh (Ba Tư)"
+        }
+    },
+    {
+        "id": 79,
+        "question": "Who was President during World War I?",
+        "answer": "Woodrow Wilson",
+        "translation": {
+            "question": "Ai là Tổng thống trong thời gian Chiến tranh Thế giới thứ nhất?",
+            "answer": "Woodrow Wilson"
+        }
+    },
+    {
+        "id": 80,
+        "question": "Who was President during the Great Depression and World War II?",
+        "answer": "Franklin Roosevelt",
+        "translation": {
+            "question": "Ai là Tổng thống trong thời kỳ Đại khủng hoảng và Chiến tranh Thế giới thứ hai?",
+            "answer": "Franklin Roosevelt"
+        }
+    },
+    {
+        "id": 81,
+        "question": "Who did the United States fight in World War II?",
+        "answer": "Japan, Germany, and Italy",
+        "translation": {
+            "question": "Hoa Kỳ đã chiến đấu với ai trong Chiến tranh Thế giới thứ hai?",
+            "answer": "Nhật Bản, Đức và Ý"
+        }
+    },
+    {
+        "id": 82,
+        "question": "Before he was President, Eisenhower was a general. What war was he in?",
+        "answer": "World War II",
+        "translation": {
+            "question": "Trước khi trở thành Tổng thống, Eisenhower là một vị tướng. Ông đã tham gia cuộc chiến nào?",
+            "answer": "Chiến tranh Thế giới thứ hai"
+        }
+    },
+    {
+        "id": 83,
+        "question": "During the Cold War, what was the main concern of the United States?",
+        "answer": "Communism",
+        "translation": {
+            "question": "Trong thời kỳ Chiến tranh Lạnh, mối quan tâm chính của Hoa Kỳ là gì?",
+            "answer": "Chủ nghĩa cộng sản"
+        }
+    },
+    {
+        "id": 84,
+        "question": "What movement tried to end racial discrimination?",
+        "answer": "Civil rights movement",
+        "translation": {
+            "question": "Phong trào nào đã cố gắng chấm dứt sự phân biệt chủng tộc?",
+            "answer": "Phong trào dân quyền"
+        }
+    },
+    {
+        "id": 85,
+        "question": "What did Martin Luther King, Jr. do?",
+        "answer": "Fought for civil rights",
+        "translation": {
+            "question": "Martin Luther King, Jr. đã làm gì?",
+            "answer": "Đấu tranh cho quyền dân sự"
+        }
+    },
+    {
+        "id": 86,
+        "question": "What major event happened on September 11, 2001, in the United States?",
+        "answer": "Terrorists attacked the United States",
+        "translation": {
+            "question": "Sự kiện lớn nào đã xảy ra vào ngày 11 tháng 9 năm 2001 tại Hoa Kỳ?",
+            "answer": "Những kẻ khủng bố đã tấn công Hoa Kỳ"
+        }
+    },
+    {
+        "id": 87,
+        "question": "Name one American Indian tribe in the United States.",
+        "answer": "Cherokee; Navajo; Sioux; Chippewa; Choctaw; Pueblo; Apache; Iroquois; Creek; Blackfeet; Seminole; Cheyenne; Arawak; Shawnee; Mohegan; Huron; Oneida; Lakota; Crow; Teton; Hopi; Inuit",
+        "translation": {
+            "question": "Kể tên một bộ lạc người da đỏ ở Hoa Kỳ.",
+            "answer": "Cherokee; Navajo; Sioux; Chippewa; Choctaw; Pueblo; Apache; Iroquois; Creek; Blackfeet; Seminole; Cheyenne; Arawak; Shawnee; Mohegan; Huron; Oneida; Lakota; Crow; Teton; Hopi; Inuit"
+        }
+    },
+    {
+        "id": 88,
+        "question": "Name one of the two longest rivers in the United States.",
+        "answer": "Missouri River; Mississippi River",
+        "translation": {
+            "question": "Kể tên một trong hai con sông dài nhất ở Hoa Kỳ.",
+            "answer": "Sông Missouri; Sông Mississippi"
+        }
+    },
+    {
+        "id": 89,
+        "question": "What ocean is on the West Coast of the United States?",
+        "answer": "Pacific Ocean",
+        "translation": {
+            "question": "Đại dương nào nằm ở bờ Tây của Hoa Kỳ?",
+            "answer": "Đại Tây Dương"
+        }
+    },
+    {
+        "id": 90,
+        "question": "What ocean is on the East Coast of the United States?",
+        "answer": "Atlantic Ocean",
+        "translation": {
+            "question": "Đại dương nào nằm ở bờ Đông của Hoa Kỳ?",
+            "answer": "Đại Tây Dương"
+        }
+    },
+    {
+        "id": 91,
+        "question": "Name one U.S. territory.",
+        "answer": "Puerto Rico; U.S. Virgin Islands; American Samoa; Northern Mariana Islands; Guam",
+        "translation": {
+            "question": "Kể tên một lãnh thổ của Hoa Kỳ.",
+            "answer": "Puerto Rico; Quần đảo Virgin thuộc Hoa Kỳ; Samoa thuộc Mỹ; Quần đảo Bắc Mariana; Guam"
+        }
+    },
+    {
+        "id": 92,
+        "question": "Name one state that borders Canada.",
+        "answer": "Maine; New Hampshire; Vermont; New York; Pennsylvania; Ohio; Michigan; Minnesota; North Dakota; Montana; Idaho; Washington; Alaska",
+        "translation": {
+            "question": "Kể tên một tiểu bang giáp với Canada.",
+            "answer": "Maine; New Hampshire; Vermont; New York; Pennsylvania; Ohio; Michigan; Minnesota; North Dakota; Montana; Idaho; Washington; Alaska"
+        }
+    },
+    {
+        "id": 93,
+        "question": "Name one state that borders Mexico.",
+        "answer": "California; Arizona; New Mexico; Texas",
+        "translation": {
+            "question": "Kể tên một tiểu bang giáp với Mexico.",
+            "answer": "California; Arizona; New Mexico; Texas"
+        }
+    },
+    {
+        "id": 94,
+        "question": "What is the capital of the United States?",
+        "answer": "Washington, D.C.",
+        "translation": {
+            "question": "Thủ đô của Hoa Kỳ là gì?",
+            "answer": "Washington, D.C."
+        }
+    },
+    {
+        "id": 95,
+        "question": "Where is the Statue of Liberty?",
+        "answer": "New York (Harbor); Liberty Island",
+        "translation": {
+            "question": "Tượng Nữ thần Tự do nằm ở đâu?",
+            "answer": "New York (Cảng); Đảo Liberty"
+        }
+    },
+    {
+        "id": 96,
+        "question": "Why does the flag have 13 stripes?",
+        "answer": "Because there were 13 original colonies; Because the stripes represent the original colonies",
+        "translation": {
+            "question": "Tại sao lá cờ có 13 sọc?",
+            "answer": "Vì có 13 thuộc địa ban đầu; Vì các sọc đại diện cho các thuộc địa ban đầu"
+        }
+    },
+    {
+        "id": 97,
+        "question": "Why does the flag have 50 stars?",
+        "answer": "Because there is one star for each state; Because each star represents a state; Because there are 50 states",
+        "translation": {
+            "question": "Tại sao lá cờ có 50 ngôi sao?",
+            "answer": "Vì có một ngôi sao cho mỗi tiểu bang; Vì mỗi ngôi sao đại diện cho một tiểu bang; Vì có 50 tiểu bang"
+        }
+    },
+    {
+        "id": 98,
+        "question": "What is the name of the national anthem?",
+        "answer": "The Star-Spangled Banner",
+        "translation": {
+            "question": "Tên của quốc ca là gì?",
+            "answer": "The Star-Spangled Banner"
+        }
+    },
+    {
+        "id": 99,
+        "question": "When do we celebrate Independence Day?",
+        "answer": "July 4",
+        "translation": {
+            "question": "Khi nào chúng ta kỷ niệm Ngày Độc lập?",
+            "answer": "Ngày 4 tháng 7"
+        }
+    },
+    {
+        "id": 100,
+        "question": "Name two national U.S. holidays.",
+        "answer": "New Year's Day; Martin Luther King, Jr. Day; Presidents' Day; Memorial Day; Independence Day; Labor Day; Columbus Day; Veterans Day; Thanksgiving; Christmas",
+        "translation": {
+            "question": "Kể tên hai ngày lễ quốc gia của Hoa Kỳ.",
+            "answer": "Ngày đầu năm mới; Ngày Martin Luther King, Jr.; Ngày Tổng thống; Ngày Tưởng niệm; Ngày Độc lập; Ngày Lao động; Ngày Columbus; Ngày Cựu chiến binh; Lễ Tạ ơn; Giáng sinh"
+        }
+    }
+]

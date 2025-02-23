@@ -1,0 +1,96 @@
+body {
+    background-color: #FCFAEE;
+    font-family: Arial, sans-serif;
+}
+
+/* Hide content by default */
+.hidden {
+    display: none;
+    margin: 0.5rem auto;
+}
+
+.translation {
+    font-size: 14px;
+    color: #FCFAEE;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+.toggle-button {
+    background-color: #507687;
+    color: #FCFAEE;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Question and Answer Containers */
+.question-container, .answer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    color: #FCFAEE;
+    min-height: 20vh;
+    max-height: auto;
+    overflow: auto;
+}
+
+.question-container {
+    background-color: #384B70;
+    min-height: 30vh;
+}
+
+.answer-container {
+    background-color: #B8001F;
+    min-height: 20vh;
+}
+
+/* Top row with label and toggle button */
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Title labels (aligned left) */
+.label-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Play button centered at the bottom */
+.play-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Navigation buttons */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+button {
+    background-color: #FCFAEE;
+    color: #384B70;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #FFD700;
+}

@@ -5,23 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ôn thi quốc tịch Mỹ</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>Ôn thi quốc tịch Mỹ</h1>
 
-    <button onclick="playAudio('q1/q1_voice1.wav')">Câu hỏi 1</button>
+    <label class="mode">
+        Chế độ: 
+        <select id="mode-selector">
+            <option value="1" selected>Học theo thứ tự</option>
+        </select>
+    </label>
+
+    <div class="question-container">
+        <div class="top-row">
+            <label class="label-title" id="question-title">Câu hỏi</label>
+            <button class="toggle-button" onclick="toggleVisibility('question-text', this)">Hiện câu hỏi</button>
+        </div>
+        <label class="question hidden" id="question-text">Nội dung câu hỏi</label>
+        <div class="play-button">
+            <button onclick="playAudio()">Nghe câu hỏi</button>
+        </div>
+    </div>
     
-    <h3>Answer</h3>
-    <button onclick="playAudio('q1/q1_answer_voice1.wav')">Trả lời</button>
+    <div class="answer-container">
+        <div class="top-row">
+            <label class="label-title" id="answer-title">Trả lời</label>
+            <button class="toggle-button" onclick="toggleVisibility('answer-text', this)">Hiện câu trả lời</button>
+        </div>
+        <label class="answer hidden" id="answer-text">Nội dung câu trả lời</label>
+        <div class="play-button">
+            <button onclick="playAudio(true)">Nghe câu trả lời</button>
+        </div>
+    </div>
 
-    <script>
-        const BUCKET_URL = "https://civic100-voice.s3.us-west-1.amazonaws.com/civic100-voice/";
+    <div class="navigation">
+        <button onclick="prevQuestion()">Câu trước</button>
+        <button onclick="nextQuestion()">Câu tiếp theo</button>
+    </div>
 
-        function playAudio(filePath) {
-            const audio = new Audio(BUCKET_URL + filePath);
-            audio.play();
-        }
-    </script>
-    
 </body>
 </html>
