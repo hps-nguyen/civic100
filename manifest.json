@@ -2,22 +2,21 @@
     "name": "Ôn thi quốc tịch Mỹ",
     "short_name": "Quốc Tịch Mỹ",
     "description": "Luyện thi quốc tịch Mỹ với 100 câu hỏi.",
-    "start_url": "/",
+    "start_url": "/civic100/",
     "display": "standalone",
     "background_color": "#FCFAEE",
     "theme_color": "#384B70",
     "icons": [
-      {
-        "src": "assets/favicon/android-chrome-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "assets/favicon/android-chrome-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
+        {
+            "src": "/civic100/assets/favicon/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/civic100/assets/favicon/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
     ],
-    "scope": "/"
-  }
-  
+    "scope": "/civic100/"
+}
