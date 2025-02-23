@@ -77,6 +77,13 @@ function playAudio(isAnswer = false) {
     currentAudio.play();
 }
 
+// Prevent zooming when tapping buttons on mobile
+document.addEventListener('touchstart', function(event) {
+    if (event.target.tagName === 'BUTTON') {
+        event.preventDefault();
+    }
+}, { passive: false });
+
 // Navigate to the previous question
 function prevQuestion() {
     if (currentIndex > 0) {
