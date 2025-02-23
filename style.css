@@ -1,6 +1,9 @@
 body {
     background-color: #FCFAEE;
     font-family: Arial, sans-serif;
+    button {
+        touch-action: manipulation;
+    }
 }
 
 /* Hide content by default */
