@@ -73,6 +73,7 @@ function playAudio(isAnswer = false) {
     }
     
     currentAudio = new Audio(BUCKET_URL + audioFile);
+    currentAudio.volume = 1.0; // Set max volume
     currentAudio.play();
 }
 
