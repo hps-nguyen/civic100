@@ -77,12 +77,14 @@ function playAudio(isAnswer = false) {
     currentAudio.play();
 }
 
-// Prevent zooming when tapping buttons on mobile
-document.addEventListener('touchstart', function(event) {
-    if (event.target.tagName === 'BUTTON') {
-        event.preventDefault();
-    }
-}, { passive: false });
+// Prevent zooming on mobile by adjusting meta tag
+document.addEventListener("DOMContentLoaded", () => {
+    let meta = document.createElement("meta");
+    meta.name = "viewport";
+    meta.content = "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no";
+    document.getElementsByTagName("head")[0].appendChild(meta);
+    loadQuestions();
+});
 
 // Navigate to the previous question
 function prevQuestion() {
@@ -111,8 +113,3 @@ function toggleVisibility(elementId, button) {
         button.textContent = button.textContent.replace("Ẩn", "Hiện");
     }
 }
-
-// Initialize the display on page load
-document.addEventListener("DOMContentLoaded", () => {
-    loadQuestions();
-});
