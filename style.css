@@ -20,7 +20,6 @@ body {
 }
 
 
-
 .toggle-button {
     background-color: #507687;
     color: #FCFAEE;
@@ -29,7 +28,14 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s;
 }
+
+.toggle-button:hover {
+    background-color: #FFD700;
+    color:#507687;
+}
+
 
 /* Question and Answer Containers */
 .question-container, .answer-container {
@@ -42,6 +48,7 @@ body {
     margin: 20px auto;
     border-radius: 10px;
     color: #FCFAEE;
+    max-width: 800px;
     min-height: 20vh;
     max-height: auto;
     overflow: auto;
@@ -77,13 +84,13 @@ body {
     border: none;
     font-size: 16px;
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s;
     margin: auto;
     background-color: #FCFAEE;
     color: #384B70;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 .play-button:hover {
@@ -108,6 +115,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s;
 }
 
 .nav-button:hover {
@@ -124,5 +132,11 @@ body {
 
     .play-button:hover {
         transform: scale(1.15);
+    }
+
+    .toggle-button:hover {
+        background-color: #507687;
+        color: #FCFAEE;
+        transform: none;
     }
 }
