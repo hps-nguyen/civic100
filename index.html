@@ -25,9 +25,7 @@
             <button class="toggle-button" onclick="toggleVisibility('question-text', this)">Hiện câu hỏi</button>
         </div>
         <label class="question hidden" id="question-text">Nội dung câu hỏi</label>
-        <div class="play-button">
-            <button onclick="playAudio()">Nghe câu hỏi</button>
-        </div>
+        <button onclick="playAudio()" class="play-button">Nghe câu hỏi</button>
     </div>
     
     <div class="answer-container">
@@ -36,14 +34,12 @@
             <button class="toggle-button" onclick="toggleVisibility('answer-text', this)">Hiện câu trả lời</button>
         </div>
         <label class="answer hidden" id="answer-text">Nội dung câu trả lời</label>
-        <div class="play-button">
-            <button onclick="playAudio(true)">Nghe câu trả lời</button>
-        </div>
+        <button onclick="playAudio(true)" class="play-button">Nghe câu trả lời</button>
     </div>
 
     <div class="navigation">
-        <button onclick="prevQuestion()">Câu trước</button>
-        <button onclick="nextQuestion()">Câu tiếp theo</button>
+        <button onclick="prevQuestion()" class="nav-button delayed-button">Câu trước</button>
+        <button onclick="nextQuestion()" class="nav-button delayed-button">Câu tiếp theo</button>
     </div>
 
 </body>

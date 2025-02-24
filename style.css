@@ -19,6 +19,8 @@ body {
     margin-top: 5px;
 }
 
+
+
 .toggle-button {
     background-color: #507687;
     color: #FCFAEE;
@@ -72,20 +74,23 @@ body {
 .play-button {
     display: flex;
     justify-content: center;
-    margin-top: auto;
-    color: white;
     border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.2s;
+    margin: auto;
+    background-color: #FCFAEE;
+    color: #384B70;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .play-button:hover {
-    background-color: #0056b3;
+    background-color: #FFD700;
     transform: scale(1.05);
 }
+
 
 /* Navigation buttons */
 .navigation {
@@ -95,7 +100,7 @@ body {
     margin: 20px auto;
 }
 
-button {
+.nav-button {
     background-color: #FCFAEE;
     color: #384B70;
     padding: 10px;
@@ -105,6 +110,23 @@ button {
     font-size: 16px;
 }
 
-button:hover {
+.nav-button:hover {
     background-color: #FFD700;
+}
+
+
+
+@media (hover: none) {
+    .play-button:hover, .nav-button:hover {
+        background-color: #FCFAEE;
+        transform: none;
+    }
+
+    .play-button:active {
+        transform: scale(1.15);
+    }
+
+    .nav-button:active {
+        transform: none;
+    }
 }

@@ -26,38 +26,53 @@ function setProgress(index) {
     document.cookie = `currentQuestion=${index}; path=/; max-age=31536000`; // Expires in 1 year
 }
 
-// Update the question and answer display
+// Update the question and answer display with smoother animation
 function updateDisplay() {
     if (questions.length === 0) return;
 
     let index = getProgress();
     currentIndex = index; // Track current index
 
-    document.getElementById("question-text").innerHTML = `
-        ${questions[index].question}
-        <p class="translation">${questions[index].translation.question}</p>
-    `;
+    const questionContainer = document.querySelector(".question-container");
+    const answerContainer = document.querySelector(".answer-container");
+    
+    // Apply smooth fade-out before updating content
+    questionContainer.style.transition = "opacity 0.3s ease";
+    answerContainer.style.transition = "opacity 0.3s ease";
+    questionContainer.style.opacity = "0.05";
+    answerContainer.style.opacity = "0.05";
+    
+    setTimeout(() => {
+        document.getElementById("question-text").innerHTML = `
+            ${questions[index].question}
+            <p class="translation">${questions[index].translation.question}</p>
+        `;
 
-    document.getElementById("answer-text").innerHTML = `
-        ${questions[index].answer}
-        <p class="translation">${questions[index].translation.answer}</p>
-    `;
+        document.getElementById("answer-text").innerHTML = `
+            ${questions[index].answer}
+            <p class="translation">${questions[index].translation.answer}</p>
+        `;
 
-    document.getElementById("question-title").textContent = `Câu hỏi ${index + 1}`;
-    document.getElementById("answer-title").textContent = `Trả lời ${index + 1}`;
+        document.getElementById("question-title").textContent = `Câu hỏi ${index + 1}`;
+        document.getElementById("answer-title").textContent = `Trả lời`;
 
-    // Hide question and answer content initially
-    document.querySelectorAll(".toggle-button").forEach(button => {
-        button.textContent = button.textContent.replace("Ẩn", "Hiện");
-    });
-    document.getElementById("question-text").style.display = "none";
-    document.getElementById("answer-text").style.display = "none";
+        // Hide question and answer content initially
+        document.querySelectorAll(".toggle-button").forEach(button => {
+            button.textContent = button.textContent.replace("Ẩn", "Hiện");
+        });
+        document.getElementById("question-text").style.display = "none";
+        document.getElementById("answer-text").style.display = "none";
 
-    // Stop any currently playing audio when updating display
-    if (currentAudio) {
-        currentAudio.pause();
-        currentAudio.currentTime = 0;
-    }
+        // Stop any currently playing audio when updating display
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+        }
+
+        // Apply smooth fade-in after updating content
+        questionContainer.style.opacity = "1";
+        answerContainer.style.opacity = "1";
+    }, 300);
 }
 
 // Handle audio playback
