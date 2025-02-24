@@ -37,8 +37,8 @@ function updateDisplay() {
     const answerContainer = document.querySelector(".answer-container");
     
     // Apply smooth fade-out before updating content
-    questionContainer.style.transition = "opacity 0.3s ease";
-    answerContainer.style.transition = "opacity 0.3s ease";
+    questionContainer.style.transition = "opacity 0.5s ease";
+    answerContainer.style.transition = "opacity 0.5s ease";
     questionContainer.style.opacity = "0.05";
     answerContainer.style.opacity = "0.05";
     
