@@ -37,10 +37,12 @@ function updateDisplay() {
     const answerContainer = document.querySelector(".answer-container");
     
     // Apply smooth fade-out before updating content
-    questionContainer.style.transition = "opacity 0.5s ease-in-out";
-    answerContainer.style.transition = "opacity 0.5s ease-in-out";
+    questionContainer.style.transition = "opacity 0.5s ease-in-out, width 0.3s ease-in-out";
+    answerContainer.style.transition = "opacity 0.5s ease-in-out, width 0.3s ease-in-out";
     questionContainer.style.opacity = "0.1";
     answerContainer.style.opacity = "0.1";
+    questionContainer.style.width = "80%";
+    answerContainer.style.width = "80%";
     
     setTimeout(() => {
         document.getElementById("question-text").innerHTML = `
@@ -81,6 +83,12 @@ function playAudio(isAnswer = false) {
     
     const audioFile = isAnswer ? `q${questions[currentIndex].id}/q${questions[currentIndex].id}_answer_voice1.wav` : `q${questions[currentIndex].id}/q${questions[currentIndex].id}_voice1.wav`;
     const playButton = isAnswer ? document.querySelector(".answer-container .play-button") : document.querySelector(".question-container .play-button");
+    const questionContainer = document.querySelector(".question-container");
+    const answerContainer = document.querySelector(".answer-container");
+    
+    // Reset both containers before playing
+    questionContainer.style.width = "80%";
+    answerContainer.style.width = "80%";
     
     // Stop currently playing audio if any
     if (currentAudio) {
@@ -105,6 +113,15 @@ function playAudio(isAnswer = false) {
         progressBar.style.background = "rgba(80, 118, 135, 0.5)";
         progressBar.style.width = "0%";
         playButton.appendChild(progressBar);
+        
+        // Expand both containers dynamically
+        if (isAnswer) {
+            answerContainer.style.width = "85%";
+        }
+        else {
+            questionContainer.style.width = "85%";
+        }
+        
         currentAudio.addEventListener("timeupdate", () => {
             const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
             progressBar.style.transition = "width 0.3s linear";
@@ -114,10 +131,12 @@ function playAudio(isAnswer = false) {
 
     currentAudio.play();
 
-    // Remove progress bar when audio ends
+    // Remove progress bar and reset width when audio ends
     currentAudio.onended = () => {
         let progressBar = playButton.querySelector(".progress-bar");
         if (progressBar) progressBar.remove();
+        questionContainer.style.width = "80%";
+        answerContainer.style.width = "80%";
     };
 }
 
