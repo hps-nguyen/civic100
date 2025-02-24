@@ -37,10 +37,10 @@ function updateDisplay() {
     const answerContainer = document.querySelector(".answer-container");
     
     // Apply smooth fade-out before updating content
-    questionContainer.style.transition = "opacity 0.5s ease";
-    answerContainer.style.transition = "opacity 0.5s ease";
-    questionContainer.style.opacity = "0.05";
-    answerContainer.style.opacity = "0.05";
+    questionContainer.style.transition = "opacity 0.5s ease-in-out";
+    answerContainer.style.transition = "opacity 0.5s ease-in-out";
+    questionContainer.style.opacity = "0.1";
+    answerContainer.style.opacity = "0.1";
     
     setTimeout(() => {
         document.getElementById("question-text").innerHTML = `
@@ -75,21 +75,50 @@ function updateDisplay() {
     }, 300);
 }
 
-// Handle audio playback
+// Handle audio playback with button animation
 function playAudio(isAnswer = false) {
     if (questions.length === 0) return;
     
     const audioFile = isAnswer ? `q${questions[currentIndex].id}/q${questions[currentIndex].id}_answer_voice1.wav` : `q${questions[currentIndex].id}/q${questions[currentIndex].id}_voice1.wav`;
+    const playButton = isAnswer ? document.querySelector(".answer-container .play-button") : document.querySelector(".question-container .play-button");
     
     // Stop currently playing audio if any
     if (currentAudio) {
         currentAudio.pause();
         currentAudio.currentTime = 0;
+        let oldProgressBar = document.querySelector(".progress-bar");
+        if (oldProgressBar) oldProgressBar.remove();
     }
     
     currentAudio = new Audio(BUCKET_URL + audioFile);
     currentAudio.volume = 1.0; // Set max volume
+    
+    currentAudio.addEventListener("loadedmetadata", () => {
+        playButton.style.position = "relative";
+        playButton.style.overflow = "hidden";
+        let progressBar = document.createElement("span");
+        progressBar.classList.add("progress-bar");
+        progressBar.style.position = "absolute";
+        progressBar.style.top = "0";
+        progressBar.style.left = "0";
+        progressBar.style.height = "100%";
+        progressBar.style.background = "rgba(80, 118, 135, 0.5)";
+        progressBar.style.width = "0%";
+        playButton.appendChild(progressBar);
+        currentAudio.addEventListener("timeupdate", () => {
+            const progress = (currentAudio.currentTime / currentAudio.duration) * 100;
+            progressBar.style.transition = "width 0.3s linear";
+            progressBar.style.width = `${progress}%`;
+        });
+    });
+
     currentAudio.play();
+
+    // Remove progress bar when audio ends
+    currentAudio.onended = () => {
+        let progressBar = playButton.querySelector(".progress-bar");
+        if (progressBar) progressBar.remove();
+    };
 }
 
 // Navigate to the previous question
