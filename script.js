@@ -101,6 +101,11 @@ function playAudio(isAnswer = false) {
         currentAudio.currentTime = 0;
         let oldProgressBar = document.querySelector(".progress-bar");
         if (oldProgressBar) oldProgressBar.remove();
+        // If the same audio is clicked again, do not reload it
+        if (currentAudio.src === BUCKET_URL + audioFile) {
+            currentAudio = null;
+            return;
+        }
     }
     
     currentAudio = new Audio(BUCKET_URL + audioFile);
@@ -142,6 +147,7 @@ function playAudio(isAnswer = false) {
         if (progressBar) progressBar.remove();
         questionContainer.style.width = "80%";
         answerContainer.style.width = "80%";
+        currentAudio = null;
     };
 }
 
