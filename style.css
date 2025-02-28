@@ -218,6 +218,11 @@ button {
         background-color: #384B70;
         color: #FCFAEE;
     }
+
+    #question-menu:hover {
+        border-color: #384B70;
+        transform: none;
+    }
 }
 
 /* Responsive adjustments */
