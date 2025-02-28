@@ -214,12 +214,13 @@ button {
     }
     
     .nav-button:hover {
-        background-color: #384B70;
+        background-color: #6A8D92;
         color: #FCFAEE;
     }
 
     #question-menu:hover {
         border-color: #384B70;
+        transform: none;
     }
 }
 
