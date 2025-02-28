@@ -174,7 +174,6 @@ button {
 
 #question-menu:hover {
     border-color: #FFD700;
-    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
 }
 
 #question-menu:focus {
@@ -221,7 +220,6 @@ button {
 
     #question-menu:hover {
         border-color: #384B70;
-        box-shadow: none;
     }
 }
 
