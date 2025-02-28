@@ -221,7 +221,7 @@ button {
 
     #question-menu:hover {
         border-color: #384B70;
-        transform: none;
+        box-shadow: none;
     }
 }
 
