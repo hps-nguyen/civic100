@@ -143,8 +143,8 @@ button {
     flex: 1;
     display: flex;
     justify-content: center;
-    margin: 0 15px;
-    min-width: 7em;
+    margin: 0 auto;
+    min-width: 8em;
     max-width: 10em;
 }
 
