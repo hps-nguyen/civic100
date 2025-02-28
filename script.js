@@ -1,4 +1,4 @@
-const BUCKET_URL = "https://civic100-voice.s3.us-west-1.amazonaws.com/civic100-voice/";
+const BUCKET_URL = "https://civic100-voice.s3.us-west-1.amazonaws.com/voice/";
 
 let questions = [];
 let currentIndex = 0;
