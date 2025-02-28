@@ -24,6 +24,7 @@ function getProgress() {
 // Save progress to cookies
 function setProgress(index) {
     document.cookie = `currentQuestion=${index}; path=/; max-age=31536000`; // Expires in 1 year
+    updateDisplay();
 }
 
 // Update the question and answer display with smoother animation
@@ -43,6 +44,10 @@ function updateDisplay() {
     answerContainer.style.opacity = "0.1";
     questionContainer.style.width = "80%";
     answerContainer.style.width = "80%";
+    
+    // Update the selected option in the question menu to match current question
+    const questionMenu = document.getElementById("question-menu");
+    questionMenu.value = index + 1; // Adding 1 because option values start from 1
     
     setTimeout(() => {
         document.getElementById("question-text").innerHTML = `
@@ -168,7 +173,68 @@ function toggleVisibility(elementId, button) {
     }
 }
 
+// Create question menu based on categories and subcategories
+function createQuestionMenu() {
+    const questionMenu = document.getElementById("question-menu");
+    const categories = [
+        { label: "CÔNG QUYỀN HOA KỲ", subcategories: [
+            { label: "Các Nguyên Tắc Của Dân Chủ Hoa Kỳ", range: [1, 12] },
+            { label: "Hệ Thống Công Quyền", range: [13, 47] },
+            { label: "Quyền Hạn Và Bổn Phận", range: [48, 57] }
+        ]},
+        { label: "LỊCH SỬ HOA KỲ", subcategories: [
+            { label: "Thời Kỳ Thuộc Địa Và Độc Lập", range: [58, 70] },
+            { label: "Thời Kỳ 1800", range: [71, 77] },
+            { label: "Lịch Sử Cận Đại Hoa Kỳ Và Các Thông Tin Lịch Sử Quan Trọng Khác", range: [78, 87] }
+        ]},
+        { label: "TỔNG HỢP VỀ KIẾN THỨC CÔNG DÂN", subcategories: [
+            { label: "Địa Dư", range: [88, 95] },
+            { label: "Các Biểu Tượng", range: [96, 98] },
+            { label: "Các Ngày Lễ", range: [99, 100] }
+        ]}
+    ];
+
+    // Clear existing options except the first one
+    while (questionMenu.options.length > 1) {
+        questionMenu.remove(1);
+    }
+
+    // Create category and subcategory structure
+    categories.forEach(category => {
+        // Create main category optgroup
+        let optgroupCategory = document.createElement("optgroup");
+        optgroupCategory.label = category.label;
+        questionMenu.appendChild(optgroupCategory);
+        
+        // Process each subcategory
+        category.subcategories.forEach(sub => {
+            // Create subcategory optgroup
+            let optgroupSub = document.createElement("optgroup");
+            optgroupSub.label = sub.label;
+            
+            // Add question options for this subcategory
+            for (let i = sub.range[0]; i <= sub.range[1]; i++) {
+                let option = document.createElement("option");
+                option.value = i;
+                option.textContent = `Câu ${i}`;
+                optgroupSub.appendChild(option);
+            }
+            
+            // Add subcategory to main category
+            questionMenu.appendChild(optgroupSub);
+        });
+    });
+}
+
+
 // Initialize the display on page load
 document.addEventListener("DOMContentLoaded", () => {
     loadQuestions();
+    createQuestionMenu()
+});
+
+// Function to jump to a selected question
+document.getElementById("question-menu").addEventListener("change", function(event) {
+    const selectedIndex = parseInt(event.target.value, 10);
+    setProgress(selectedIndex - 1);
 });

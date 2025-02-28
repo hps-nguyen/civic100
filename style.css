@@ -1,9 +1,11 @@
 body {
     background-color: #FCFAEE;
     font-family: Arial, sans-serif;
-    button {
-        touch-action: manipulation;
-    }
+    padding-bottom: 70px; /* Add padding to prevent content from being hidden behind fixed navigation */
+}
+
+button {
+    touch-action: manipulation;
 }
 
 /* Hide content by default */
@@ -19,7 +21,6 @@ body {
     margin-top: 5px;
 }
 
-
 .toggle-button {
     background-color: #507687;
     color: #FCFAEE;
@@ -33,9 +34,8 @@ body {
 
 .toggle-button:hover {
     background-color: #FFD700;
-    color:#507687;
+    color: #507687;
 }
-
 
 /* Question and Answer Containers */
 .question-container, .answer-container {
@@ -96,38 +96,108 @@ body {
     transition: background-color 0.3s ease, transform 0.2s;
 }
 
-
 .play-button:hover {
     background-color: #FFD700;
     transform: scale(1.05);
 }
 
-
-/* Navigation buttons */
+/* Updated Navigation styles */
 .navigation {
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin: 20px auto;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #D9C8A9;
+    padding: 10px 5%;
+    border-radius: 15px 15px 0 0;
+    z-index: 100;
+    box-sizing: border-box;
 }
 
 .nav-button {
-    background-color: #FCFAEE;
-    color: #384B70;
-    padding: 10px;
+    background-color: #6A8D92;
+    color: #FCFAEE;
+    padding: 12px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease, transform 0.2s;
+    flex: 0 0 auto;
+    min-width: 120px;
 }
 
 .nav-button:hover {
     background-color: #FFD700;
+    color: #384B70;
 }
 
+/* Question Menu Container Styling */
+#question-menu-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+    min-width: 7em;
+    max-width: 10em;
+}
 
+#question-menu-container label {
+    width: 100%;
+}
 
+#question-menu {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #384B70;
+    border-radius: 5px;
+    background-color: #FCFAEE;
+    color: #384B70;
+    font-size: 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%23384B70' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 30px;
+}
+
+#question-menu:hover {
+    border-color: #FFD700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+#question-menu:focus {
+    outline: none;
+    border-color: #507687;
+    box-shadow: 0 0 5px rgba(80, 118, 135, 0.5);
+}
+
+/* Style for optgroup elements */
+#question-menu optgroup {
+    font-weight: bold;
+    color: #384B70;
+    background-color: #FCFAEE;
+}
+
+/* Style for the options */
+#question-menu option {
+    padding: 8px;
+    background-color: #FCFAEE;
+    color: #384B70;
+}
+
+/* Important: Hover prevention for touch devices */
 @media (hover: none) {
     .play-button:hover, .nav-button:hover {
         background-color: #FCFAEE;
@@ -142,5 +212,67 @@ body {
         background-color: #507687;
         color: #FCFAEE;
         transform: none;
+    }
+    
+    .nav-button:hover {
+        background-color: #384B70;
+        color: #FCFAEE;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: row; /* Maintain row layout on mobile */
+        align-items: center;
+        border-radius: 0;
+    }
+    
+    #question-menu-container {
+        width: auto;
+        margin: 0 10px;
+    }
+    
+    .nav-button {
+        margin: 0;
+        width: auto;
+        padding: 10px;
+        font-size: 14px;
+        min-width: 100px;
+    }
+    
+    #question-menu {
+        padding: 8px 25px 8px 8px;
+        font-size: 14px;
+    }
+    
+    .question-container, .answer-container {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .navigation {
+        border-radius: 0;
+    }
+
+    .nav-button {
+        min-width: 80px;
+        font-size: 12px;
+        padding: 8px 5px;
+    }
+    
+    #question-menu-container {
+        max-width: 120px;
+    }
+    
+    .label-title {
+        font-size: 16px;
+    }
+    
+    .toggle-button {
+        font-size: 12px;
     }
 }
